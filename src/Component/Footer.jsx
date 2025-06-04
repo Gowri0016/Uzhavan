@@ -28,22 +28,29 @@ export default function Footer() {
         </div>
 
         {/* Right - Contact */}
-        <div>
-          <h2 className="text-lg font-semibold mb-4 text-lime-100">Contact Us</h2>
-          <div className="space-y-3 text-sm text-green-100">
-            <p className="flex items-center gap-2">
-              <FaPhoneAlt /> +91 98765 43210
-            </p>
-            <p className="flex items-center gap-2">
-              <FaEnvelope /> contact@agrofarm.in
-            </p>
-            <div className="flex gap-4 mt-3">
-              <a href="#"><FaFacebookF className="hover:text-lime-300" /></a>
-              <a href="#"><FaTwitter className="hover:text-lime-300" /></a>
-              <a href="#"><FaInstagram className="hover:text-lime-300" /></a>
-            </div>
-          </div>
-        </div>
+<div>
+  <h2 className="text-lg font-semibold mb-4 text-lime-100">Contact Us</h2>
+  <div className="space-y-3 text-sm text-green-100">
+    <p className="flex items-center gap-2">
+      <FaPhoneAlt />
+      <a href="tel:+919361054415" className="hover:text-lime-300">
+        +91 93610-54415
+      </a>
+    </p>
+    <p className="flex items-center gap-2">
+      <FaEnvelope />
+      <a href="mailto:uzhavan.com@gmail.com" className="hover:text-lime-300">
+        uzhavan.com@gmail.com
+      </a>
+    </p>
+    <div className="flex gap-4 mt-3">
+      <a href="#"><FaFacebookF className="hover:text-lime-300" /></a>
+      <a href="#"><FaTwitter className="hover:text-lime-300" /></a>
+      <a href="#"><FaInstagram className="hover:text-lime-300" /></a>
+    </div>
+  </div>
+</div>
+
       </div>
 
       {/* Bottom Bar */}
